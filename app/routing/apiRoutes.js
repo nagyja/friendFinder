@@ -12,7 +12,7 @@ module.exports = function(app){
     var bestMatch = {
       name: "",
       photo: "",
-      friendDifference: 60 //adjustable threshold
+      friendDifference: 20 //adjustable threshold
     };
 
     var userData   = req.body;
